@@ -8,7 +8,7 @@ This is a short assignment and our focus is on your (1) thinking process and (2)
 
 #### Objectives: 
 1. Given certain set of constraints, create a layout of solar panels that maximizes the number of panels within a 2D space. 
-2. Develop the algorithm in a way that is suitable for ease of further use and improvement (clean code with documentation).
+2. Develop the algorithm in a way that is suitable for ease of further use and improvement (clean code with documentation). It should also be lightweight enough to be used in a backend service. 
 3. Generate images to show the layout of solar panels. (*hint* use Python matplotlib or similar plotting libraries for visualization)
 4. Write a few short explainations to describe your thinking process. This can be in the form of markdown cells in the Jupyter notebook or a separate Readme file, other formats are accepted too.
 5. You will be sharing more about your approach in the next interview after this assignment. 
@@ -16,7 +16,7 @@ This is a short assignment and our focus is on your (1) thinking process and (2)
 
 #### Constraints and details: 
 - Solar panels sizes (length and width): 2m x 1m, 2.3m x 1m, 1.8m x 0.9m. The algorithm should work for these 3 sets of sizes.  
-- Solar panels can be rotated 
+- Solar panels can be rotated. (*hint* for every 2D rooftop space, there is one rotation value that is optimal for that space)
 - Solar panels can be arranged in portrait (length faces other panel's length) or landscape (width faces another panel's width) modes next to each other 
 - Solar panels are placed in rows, where the distance between each panel within the row is 0.02m. There is a distance of 0.5m between each row. 
 - Use the following points to represent different polygons of different rooftops that your layout of solar panels need to be placed within. (Units are in metres) Generate images of the result of your algorithm for each rooftop polygon:  
