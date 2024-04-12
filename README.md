@@ -14,7 +14,7 @@ This is a short assignment and our focus is on your (1) thinking process and (2)
 
 
 #### Constraints and details: 
-- The algorithm should work for these 3 sets of panel sizes. Assume the panels are installed flat on the roof. Solar panels sizes (length and width): 
+- The algorithm should work for these 3 sets of panel sizes. Assume the panels are installed flat on the roof. Solar panels sizes (length and width) are: 
     - 2m x 1m
     - 2.3m x 1m
     - 1.8m x 0.9m 
@@ -25,6 +25,7 @@ This is a short assignment and our focus is on your (1) thinking process and (2)
     - (0,0), (0, 100), (50, 0) 
     - (1.12, 130.83), (1.12, 160.83), (31.12, 160.83), (31.12, 130.83), (11.12, 100.83), (-11.12, 90.83), (-30.12, 90.83), (-20.182, 120.273) 
     - (2, 100), (2,160), (131, 160), (35, 200), (11, 300), (-20 , 90), (30, 90) 
+- Please only use one type of panel per rooftop. You are free to choose any panel size for each rooftop (3 combinations), or can do all 3 panel sizes for each rooftop (total 9 combinations). 
 
 
 The following pictures (from different sources, they are not related to each other) show how solar panel orientation and placement affect the maximum number of panels we can put on a rooftop. 
